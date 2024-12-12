@@ -1,9 +1,6 @@
 name: myaction
 
 on:
-  push:
-	branches: ["main"]
-  pull_reqest: ["main"]	
   workflow_dispatch:
 jobs:
   build:
